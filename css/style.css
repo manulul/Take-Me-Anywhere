@@ -1,4 +1,64 @@
+html {
+    background-color: #212121;
+}
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+#worldmap {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#worldmap img {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+}
+
+#knap {
+    position: absolute;
+    top: 350px;
+    padding: 15px 30px;
+    background-color: rgb(255, 227, 134);
+    color: #383838;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: Lato;
+}
+
+#knap:hover {
+    background-color: rgba(255, 67, 42, 0.87);
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 16px;
 }
