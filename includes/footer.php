@@ -1,8 +1,9 @@
 <footer>
 	<h3>Designed and powered by MEKJ - dev &#169; All rights reserved</h3>
 </footer>
-
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/master.js"></script>
 </body>
+
 </html>

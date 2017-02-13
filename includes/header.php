@@ -7,5 +7,5 @@
     <meta name="description" content="">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lato" rel="stylesheet"> </head>
-
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <body>
