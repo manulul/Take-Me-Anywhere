@@ -1,6 +1,6 @@
-// jquery rotate
-var angle = 0;
-setInterval(function () {
-    angle += 3;
-    $("#knap").rotate(angle);
-}, 0);
+$(function() {
+
+   $('#knap').click(function() {
+    $(this).rotate({ count:4, duration:0.6, easing:'ease-out' });
+  });
+});
