@@ -55,4 +55,6 @@ echo $input[$rand_keys[49]] . "\n";
 echo $input[$rand_keys[50]] . "\n";
 
 
-?>
+echo "You are going to" . $destinations[0] . "!";
+
+ ?>
