@@ -1,8 +1,8 @@
 $(function () {
     $('#knap').click(function () {
         $(this).rotate({
-            count: 4
-            , duration: 0.6
+            count: 10
+            , duration: 0.3
             , easing: 'ease-out'
         });
     });
@@ -27,12 +27,3 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
-$(function () {
-    $('#knap').click(function () {
-        $(this).rotate({
-            count: 20
-            , duration: 0.3
-            , easing: 'ease-out'
-        });
-    });
-});
