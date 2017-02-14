@@ -6,6 +6,8 @@
             <button type="button" id="knap">{{ message }}</button>
         </div>
     </section>
+   
+
     <script>
         var wrapper = new Vue({
             el: '.wrapper'
@@ -14,6 +16,8 @@
             }
         })
     </script>
+
+
     <?php 
 	
 	
