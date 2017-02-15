@@ -1,3 +1,4 @@
+//Knap animation
 $(function () {
     $('#knap').click(function () {
         $(this).rotate({
@@ -8,7 +9,7 @@ $(function () {
     });
 });
 
-
+//Show modal
 $('#knap').click(function() {
     setTimeout(function() {
     $(".modal").removeClass('modal');
@@ -17,3 +18,16 @@ $('#knap').click(function() {
             1000);
     
 });
+
+//Lyd
+  var soundID = "Thunder";
+
+      function loadSound () {
+        createjs.Sound.registerSound("assets/thunder.ogg", soundID);
+      }
+
+      function playSound () {
+        createjs.Sound.play(soundID);
+      }
+
+   
