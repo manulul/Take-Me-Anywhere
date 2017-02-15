@@ -12,7 +12,7 @@ if ($a == 0) {
 } elseif ($a == 1) {
     echo "China";
 } else {
-    echo "Shit aint working";
+    echo "No mans land";
 }
 ?>
 

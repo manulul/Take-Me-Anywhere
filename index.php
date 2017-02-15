@@ -28,6 +28,7 @@ include 'includes/array.php';
 ?></h1>
 </article>
 
+
     <?php 	
 	include 'includes/footer.php';
 ?>
