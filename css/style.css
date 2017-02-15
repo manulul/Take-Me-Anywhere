@@ -46,7 +46,7 @@ html {
     color: #383838;
     font-size: 18px;
     border-radius: 10px;
-    font-family: Lato;
+    font-family: 'Open Sans', Helvetica;
 }
 
 #knap:hover {
@@ -58,7 +58,33 @@ h3 {
     text-align: center;
     color: white;
     margin-top: 5px;
-    font-family: Lato;
+    font-family: 'Open Sans', Helvetica;
     font-weight: 300;
     font-size: 16px;
+}
+
+#result {
+    color: black;
+    text-align: center;
+}
+
+
+
+.modalshow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Open Sans';
+}
+
+.modal {
+    display: none;
+
 }

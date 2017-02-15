@@ -1,6 +1,9 @@
 <?php 
 	include 'includes/header.php';
 ?>
+
+
+
     <section id="worldmap"> <img src="images/worldmap.png">
         <div class="wrapper">
             <button type="button" id="knap">{{ message }}</button>
@@ -17,9 +20,15 @@
         })
     </script>
 
+<article class="modal">
+<img> </img>
+<h1 id="result">You are going to 
+<?php
+include 'includes/array.php';
+?></h1>
+</article>
 
-    <?php 
-	
-	
+    <?php 	
 	include 'includes/footer.php';
 ?>
+
