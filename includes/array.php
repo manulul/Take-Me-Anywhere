@@ -4,7 +4,7 @@ $random_keys=array_rand($a,2);
 echo $a[$random_keys[0]]."!";
 ?>
  
-<?php 
+
 
 <?php
 if ($a == 0) {

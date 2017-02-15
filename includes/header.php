@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200|Open+Sans:300" rel="stylesheet">
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
-    
+  
 </head>
 
 <body>
