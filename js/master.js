@@ -8,26 +8,20 @@ $(function () {
         });
     });
 });
-
 //Show modal
-$('#knap').click(function() {
-    setTimeout(function() {
-    $(".modal").removeClass('modal');
-    $("article").addClass('modalshow');
-     },
-            1000);
-    
+$('#knap').click(function () {
+    setTimeout(function () {
+        $(".modal").removeClass('modal');
+        $("article").addClass('modalshow');
+    }, 1000);
 });
-
 //Lyd
-  var soundID = "Thunder";
+var soundID = "Thunder";
 
-      function loadSound () {
-        createjs.Sound.registerSound("assets/thunder.ogg", soundID);
-      }
+function loadSound() {
+    createjs.Sound.registerSound("assets/heya.mp3", soundID);
+}
 
-      function playSound () {
-        createjs.Sound.play(soundID);
-      }
-
-   
+function playSound() {
+    createjs.Sound.play(soundID);
+}

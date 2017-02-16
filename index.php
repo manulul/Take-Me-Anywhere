@@ -15,13 +15,18 @@
             }
         })
     </script>
-    <article class="modal"> <img id="resultimg" src="images/<?php echo $a[$random_key]
-?>.jpg" alt="Pictures of destination" </img>
-        <h1 id="result">You are going to 
+    <article class="modal">
+        <div id="resultdiv">
+            <h1 id="result">You are going to 
 <?php
 echo $a[$random_key]."!";
 ?>
-</h1> </article>
+</h1> </div> <img id="resultimg" src="images/<?php $a = str_replace(' ', '_', $a); echo $a[$random_key]
+?>.jpg" alt="Pictures of destination" </img>
+        <a href="index.php">
+            <button type="button" id="knapto">Try again!</button>
+        </a>
+    </article>
     <?php 	
 	include 'includes/footer.php';
 ?>

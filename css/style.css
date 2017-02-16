@@ -11,7 +11,6 @@ html {
     margin: 0 auto;
     width: 100%;
     height: auto;
-    
 }
 
 #worldmap img {
@@ -38,20 +37,55 @@ html {
     -ms-flex-pack: center;
 }
 
+#knap:hover,
+#knapto:hover {
+    background-color: rgba(255, 67, 42, 0.87);
+    color: white;
+}
+
 #knap {
     position: absolute;
     top: 350px;
     padding: 15px 30px;
     background-color: rgb(255, 227, 134);
-    color: #383838;
-    font-size: 18px;
+    color: black;
+    font-size: 20px;
     border-radius: 10px;
     font-family: 'Open Sans', Helvetica;
 }
 
-#knap:hover {
-    background-color: rgba(255, 67, 42, 0.87);
-    color: white;
+#knapto {
+    position: absolute;
+    display: block;
+    margin-top: 390px;
+    margin-left: -830px;
+    padding: 15px 50px;
+    background-color: rgb(255, 227, 134);
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Open Sans', Helvetica;
+    -webkit-animation: bounce .9s infinite alternate;
+    -moz-animation: bounce .9s infinite alternate;
+    animation: bounce .9s infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+    to {
+        -webkit-transform: scale(1.1);
+    }
+}
+
+@-moz-keyframes bounce {
+    to {
+        -moz-transform: scale(1.1);
+    }
+}
+
+@keyframes bounce {
+    to {
+        transform: scale(0.91);
+    }
 }
 
 h3 {
@@ -64,27 +98,37 @@ h3 {
 }
 
 #result {
-    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
     text-align: center;
 }
 
+#resultimg {
+    width: 500px;
+    height: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
 
+#resultdiv {
+    width: 480px;
+    height: auto;
+}
 
 .modalshow {
-    display: block;
+    display: inline-flex;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1200px;
-    height: 600px;
+    width: 950px;
+    height: 520px;
     border: 1px solid black;
     border-radius: 8px;
-    background-color: white;
+    background-color: rgb(213, 231, 245);
     font-family: 'Open Sans';
 }
 
 .modal {
     display: none;
-
 }
