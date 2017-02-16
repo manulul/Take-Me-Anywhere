@@ -1,5 +1,6 @@
 <?php 
 	include 'includes/header.php';
+    include 'includes/array.php';
 ?>
     <section id="worldmap"> <img src="images/worldmap.png">
         <div class="wrapper">
@@ -14,11 +15,11 @@
             }
         })
     </script>
-    <article class="modal"> <img src="images/<?php include 'includes/array.php';
-?>" alt="Pictures of destination" </img>
+    <article class="modal"> <img id="resultimg" src="images/<?php echo $a[$random_key]
+?>.jpg" alt="Pictures of destination" </img>
         <h1 id="result">You are going to 
 <?php
-include 'includes/array.php';
+echo $a[$random_key]."!";
 ?>
 </h1> </article>
     <?php 	
