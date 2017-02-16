@@ -19,6 +19,9 @@ html {
     position: relative;
 }
 
+
+/* Centreret modal boks */
+
 .wrapper {
     display: -webkit-box;
     display: -moz-box;
@@ -42,6 +45,9 @@ html {
     background-color: rgba(255, 67, 42, 0.87);
     color: white;
 }
+
+
+/* Knap 1 og 2 med nogle animationer - Bounce */
 
 #knap {
     position: absolute;
@@ -97,11 +103,17 @@ h3 {
     font-size: 16px;
 }
 
+
+/* H3 styling */
+
 #result {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     text-align: center;
 }
+
+
+/* Image styling */
 
 #resultimg {
     width: 500px;
@@ -110,10 +122,16 @@ h3 {
     margin-right: 10px;
 }
 
+
+/* tekstboks styling */
+
 #resultdiv {
     width: 480px;
     height: auto;
 }
+
+
+/* Modalboks styling */
 
 .modalshow {
     display: inline-flex;
