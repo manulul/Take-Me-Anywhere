@@ -106,12 +106,21 @@ h3 {
 }
 
 
-/* H3 styling */
+/* H3 og p styling */
 
 #result {
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     text-align: center;
+}
+
+#tekstboks {
+    text-align: left;
+    width: 410px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    letter-spacing: 0.2px;
 }
 
 
