@@ -31,34 +31,8 @@ echo $a[$random_key]."!";
 	include 'includes/footer.php';
 ?>
 
-<?php
-if ($a[$random_key] == "Datca") {
-    echo "a is bigger than b";
-} elseif ($a[$random_key] == "Shikaoi") {
-    echo "a is equal to b";
-} elseif ($a[$random_key] == "Santiago de Cuba") {
-    echo "a is equal to b";
-}
-
-elseif ($a[$random_key] == "Calgary") {
-    echo "a is equal to b";
-}
-
-elseif ($a[$random_key] == "Tromsoe") {
-    echo "a is equal to b";
-}
-
-elseif ($a[$random_key] == "Limerick") {
-    echo "a is equal to b";
-}
 
 
 
 
 
-
-
-else {
-    echo "a is smaller than b";
-}
-?>
