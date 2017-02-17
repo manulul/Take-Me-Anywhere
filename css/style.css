@@ -42,8 +42,8 @@ html {
 
 #knap:hover,
 #knapto:hover {
-    background-color: rgba(255, 67, 42, 0.87);
-    color: white;
+    background-color: rgba(255, 67, 42, 0.95);
+    color: black;
 }
 
 
@@ -53,8 +53,8 @@ html {
     position: absolute;
     top: 350px;
     padding: 15px 30px;
-    background-color: rgb(255, 227, 134);
-    color: black;
+    background-color: rgba(255, 67, 42, 0.95);
+    color: white;
     font-size: 20px;
     border: 1px solid black;
     border-radius: 10px;
@@ -155,10 +155,11 @@ h3 {
     height: 520px;
     border: 1px solid black;
     border-radius: 8px;
-    background-color: rgb(213, 231, 245);
+    background-color: rgb(86, 86, 77);
     font-family: 'Open Sans';
 }
 
 .modal {
     display: none;
 }
+
