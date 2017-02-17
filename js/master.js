@@ -19,7 +19,7 @@ $('#knap').click(function () {
 var soundID = "Thunder";
 
 function loadSound() {
-    createjs.Sound.registerSound("assets/heya.mp3", soundID);
+    createjs.Sound.registerSound("assets/magicwand.mp3", soundID);
 }
 
 function playSound() {

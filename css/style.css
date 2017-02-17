@@ -54,7 +54,7 @@ html {
     position: absolute;
     top: 350px;
     padding: 15px 30px;
-    background-color: rgba(147, 230, 167, 0.95);
+    background-color: rgba(83, 149, 99, 0.95);
     color: white;
     font-size: 20px;
     border: 1px solid black;
@@ -68,7 +68,7 @@ html {
     margin-top: 390px;
     margin-left: -830px;
     padding: 15px 50px;
-    background-color: rgba(147, 230, 167, 0.95);
+    background-color: rgba(83, 149, 99, 0.95);
     color: white;
     font-size: 20px;
     border: 1px solid black;
@@ -156,10 +156,10 @@ h3 {
     transform: translate(-50%, -50%);
     width: 950px;
     height: 520px;
-    border: 1px solid black;
     border-radius: 8px;
     background-color: rgba(42, 43, 41, 0.99);
     font-family: 'Open Sans';
+    box-shadow: 5px 5px 50px white;
 }
 
 .modal {
