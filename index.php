@@ -2,7 +2,7 @@
 	include 'includes/header.php';
     include 'includes/array.php';
 ?>
-    <section id="worldmap"> <img src="images/worldmap.png">
+    <section id="worldmap"> <img src="images/worldmap.jpg">
         <div class="wrapper">
             <button type="button" onclick="playSound();" id="knap">{{ message }}</button>
         </div>
@@ -30,9 +30,3 @@ echo $a[$random_key]."!";
     <?php 	
 	include 'includes/footer.php';
 ?>
-
-
-
-
-
-

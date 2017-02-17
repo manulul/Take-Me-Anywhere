@@ -56,8 +56,9 @@ html {
     background-color: rgb(255, 227, 134);
     color: black;
     font-size: 20px;
+    border: 1px solid black;
     border-radius: 10px;
-    font-family: 'Open Sans', Helvetica;
+    font-family: 'Raleway', sans-serif;
 }
 
 #knapto {
@@ -69,8 +70,9 @@ html {
     background-color: rgb(255, 227, 134);
     color: black;
     font-size: 20px;
+    border: 1px solid black;
     border-radius: 10px;
-    font-family: 'Open Sans', Helvetica;
+    font-family: 'Raleway', sans-serif, Helvetica;
     -webkit-animation: bounce .9s infinite alternate;
     -moz-animation: bounce .9s infinite alternate;
     animation: bounce .9s infinite alternate;
@@ -113,13 +115,14 @@ h3 {
 }
 
 
-/* Image styling */
+/* Modal Image styling */
 
 #resultimg {
     width: 500px;
     height: 500px;
     margin-top: 10px;
     margin-right: 10px;
+    border-radius: 8px;
 }
 
 
