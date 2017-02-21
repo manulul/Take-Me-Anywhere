@@ -47,6 +47,11 @@ html {
     color: white;
 }
 
+#knap:focus,
+#knapto:focus {
+    outline: none;
+}
+
 
 /* Knap 1 og 2 med nogle animationer - Bounce */
 
@@ -57,7 +62,7 @@ html {
     background-color: rgba(83, 149, 99, 0.95);
     color: white;
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px solid rgba(83, 149, 99, 0.95);
     border-radius: 10px;
     font-family: 'Raleway', sans-serif;
 }
@@ -65,7 +70,7 @@ html {
 #knapto {
     position: absolute;
     display: block;
-    margin-top: 390px;
+    margin-top: 400px;
     margin-left: -830px;
     padding: 15px 50px;
     background-color: rgba(83, 149, 99, 0.95);
@@ -104,6 +109,7 @@ h3 {
     font-family: 'Open Sans', Helvetica;
     font-weight: 300;
     font-size: 16px;
+    margin-top: 20px;
 }
 
 
@@ -119,7 +125,7 @@ h3 {
 #tekstboks {
     text-align: left;
     width: 410px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 20px;
     font-size: 17px;
     letter-spacing: 0.2px;

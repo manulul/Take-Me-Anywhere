@@ -13,7 +13,7 @@ $('#knap').click(function () {
     setTimeout(function () {
         $(".modal").removeClass('modal');
         $("article").addClass('modalshow');
-    }, 1000);
+    }, 2000);
 });
 //Lyd
 var soundID = "Thunder";
